@@ -11,9 +11,9 @@ SET WS=http://localhost:8080/metrics.server/rest/add/metrics?
 
 ::bitsadmin.exe /transfer "JobName" http://www.obofoundry.org/registry/ontologies.ttl "%obofile%"
 echo "OBO"
-::java -Xms2G -Xmx10G -jar %harvestjar% %obofile% %WS%"format=ttl&context=http://www.obofoundry.org/registry/ontologies.ttl"
+java -Xms2G -Xmx10G -jar %harvestjar% %obofile% %WS%"format=ttl&context=http://www.obofoundry.org/registry/ontologies.ttl"
 echo "ev.owl"
-::java -Xms2G -Xmx10G -jar %harvestjar% %evowl% %WS%"format=rdfxml&context=http://ontothenextone.net/ev.owl"
+java -Xms2G -Xmx10G -jar %harvestjar% %evowl% %WS%"format=rdfxml&context=http://ontothenextone.net/ev.owl"
 
 
 :: Process the results (add them to the server, etc)
