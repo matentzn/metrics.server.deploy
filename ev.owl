@@ -4131,6 +4131,18 @@
     
 
 
+    <!-- http://ontothenextone.net/ev.owl#metrics_gathering_exception -->
+
+
+    <owl:Class rdf:about="http://ontothenextone.net/ev.owl#metrics_gathering_exception">
+        <rdfs:subClassOf rdf:resource="http://ontothenextone.net/ev.owl#ExcludedImportsMeasurement"/>
+        <rdfs:subClassOf rdf:resource="http://ontothenextone.net/ev.owl#Measurement"/>
+        <machineReadableLabel>metrics_gathering_exception</machineReadableLabel>
+        <rdfs:label>Metrics gathering exception</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://ontothenextone.net/ev.owl#middle_atom_ct -->
 
 
@@ -4451,6 +4463,18 @@
         <rdfs:subClassOf rdf:resource="http://ontothenextone.net/ev.owl#Measurement"/>
         <machineReadableLabel>owlapiloadexception</machineReadableLabel>
         <rdfs:label>Owlapiloadexception</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontothenextone.net/ev.owl#owlapiloadexception_source -->
+
+
+    <owl:Class rdf:about="http://ontothenextone.net/ev.owl#owlapiloadexception_source">
+        <rdfs:subClassOf rdf:resource="http://ontothenextone.net/ev.owl#ExcludedImportsMeasurement"/>
+        <rdfs:subClassOf rdf:resource="http://ontothenextone.net/ev.owl#Measurement"/>
+        <machineReadableLabel>owlapiloadexception_source</machineReadableLabel>
+        <rdfs:label>Owlapiloadexception source</rdfs:label>
     </owl:Class>
     
 
